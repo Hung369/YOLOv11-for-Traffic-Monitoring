@@ -7,6 +7,7 @@
 - [Installation](#installation)
 - [Data Preparation](#data-preparation)
 - [Training](#training)
+- [Evaluation](#evaluation)
 - [Inference](#inference)
 - [Acknowledgements](#acknowledgements)
 
@@ -85,13 +86,29 @@ Train YOLOv11 using the provided training script. Adjust hyperparameters as need
 ```bash
 python training.py
 ```
+---
+## Evaluation
 
+This is my model evaluation after training with these parameters
+| Hyperparameter | Value                                  |
+| -------------- | -------------------------------------- |
+| Learning Rate  | η = 0.01 (cosine annealing schedule)   |
+| Batch Size     | 64 images                              |
+| Momentum       | 0.937                                  |
+| Weight Decay   | 0.0005                                 |
+| Epochs         | 300                                    |
+
+---
 ## Inference
 
 To run detection on a video:
 ```bash
 python inference.py --input "Road_Traffic.mp4" --output "./videos/TrafficCam_video.mp4" --weights "best.pt" --tracker "botsort.yaml"
 ```
-
+This is my video demo
+<video width="640" height="360" controls>
+  <source src="path/to/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ## References
 - [YOLOv11 for Vehicle Detection](https://arxiv.org/html/2410.22898v1)
