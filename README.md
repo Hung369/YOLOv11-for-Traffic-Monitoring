@@ -110,5 +110,6 @@ This is my video demo
   <source src="path/to/video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 ## References
 - [YOLOv11 for Vehicle Detection](https://arxiv.org/html/2410.22898v1)
