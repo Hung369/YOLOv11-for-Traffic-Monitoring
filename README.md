@@ -7,10 +7,7 @@
 - [Installation](#installation)
 - [Data Preparation](#data-preparation)
 - [Training](#training)
-- [Evaluation](#evaluation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Inference](#inference)
 - [Acknowledgements](#acknowledgements)
 
 ---
@@ -88,3 +85,13 @@ Train YOLOv11 using the provided training script. Adjust hyperparameters as need
 ```bash
 python training.py
 ```
+
+## Inference
+
+To run detection on a video:
+```bash
+python inference.py --input "Road_Traffic.mp4" --output "./videos/TrafficCam_video.mp4" --weights "best.pt" --tracker "botsort.yaml"
+```
+
+## References
+- [YOLOv11 for Vehicle Detection](https://arxiv.org/html/2410.22898v1)
