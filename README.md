@@ -35,8 +35,8 @@ This makes it an ideal solution for smart city and traffic management applicatio
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your_username/YOLOv11-Traffic-Monitoring.git
-    cd YOLOv11-Traffic-Monitoring
+    git clone https://github.com/your_username/YOLOv11-for-Traffic-Monitoring.git
+    cd YOLOv11-for-Traffic-Monitoring
     ```
 
 2. **Create a virtual environment:**
