@@ -46,7 +46,7 @@ This makes it an ideal solution for smart city and traffic management applicatio
 3. **Install dependencies:**
 
     ```bash
-    pip install -r requirements.txt
+    pip install ultralytics
     ```
 
 ---
