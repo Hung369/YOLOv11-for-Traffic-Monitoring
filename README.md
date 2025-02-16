@@ -106,10 +106,6 @@ To run detection on a video:
 python inference.py --input "Road_Traffic.mp4" --output "./videos/TrafficCam_video.mp4" --weights "best.pt" --tracker "botsort.yaml"
 ```
 This is my video demo
-<video width="640" height="360" controls>
-  <source src="path/to/video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ## References
 - [YOLOv11 for Vehicle Detection](https://arxiv.org/html/2410.22898v1)
